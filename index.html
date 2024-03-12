@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Alatsi&family=Alegreya+Sans+SC:wght@100;400&family=Bowlby+One&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700&family=Julee&family=Lexend+Exa:wght@100&family=Lexend:wght@100&family=Marck+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@100&family=Suez+One&family=Unbounded:wght@900&family=Ysabeau+SC:wght@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form id="form-random">
+      <h1>Find Random</h1>
+      <input
+        name="start"
+        id="start-number"
+        type="number"
+        placeholder="start number"
+      />
+      <input
+        name="last"
+        id="last-number"
+        type="number"
+        placeholder="last number"
+      />
+      <h2>Random Raqam:<span id="random-span"> </span></h2>
+      <input
+        name="gueses"
+        id="yourGueses"
+        type="number"
+        placeholder="your gueses"
+      />
+      <button id="enter-btn">Enter</button>
+      <h3>
+        Attempts:
+        <span id="attempt-span"></span>
+      </h3>
+      <h3>Result: <span id="result-span"> </span></h3>
+      <button id="restart-btn">Restart</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
